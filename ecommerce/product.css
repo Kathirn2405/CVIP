@@ -1,0 +1,133 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the header and navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+nav{
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+ 
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.product {
+  text-align: center;
+}
+
+
+img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #232f3e;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a2533;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+center .search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.input{
+  border: black;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.input input{
+  padding: 10px;
+  width: 500px;
+}
+.search-btn button{
+  padding: 13px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: orange;
+}
+button{
+  background-color: goldenrod;
+  padding: 10px;
+  border: black;
+  border-radius: 8px;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    
+  .product-list{
+      display: flex;
+      flex-direction: column;
+  }
+
+  
+  
+}

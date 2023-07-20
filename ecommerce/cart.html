@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="payment.css">
+<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="cart.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <img src="images/cart.jpg">
+    <h1>Cart</h1>
+    <form>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Allen solly </td>
+            <td>999</td>
+            <td>
+              <input type="number" value="1-100" min="1">
+            </td>
+            <td>999</td>
+            <td>
+              <button class="remove-btn">Remove</button>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <div class="total">
+        <span>Total:</span>
+        <span>999</span>
+      </div>
+      <button class="buy"><a href="payment.html">Buy Now</a></button>>
+    </form>
+  </div>
+</body>
+</html>
