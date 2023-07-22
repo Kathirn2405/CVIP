@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("me.jpg");
+}
+
+.editor-container {
+  display: flex;
+}
+.code-container, .output {
+  flex: 1;
+  padding: 10px;
+  
+}
+
+.code-container {
+  border-right: 1px solid #e4dbdb;
+}
+
+textarea, iframe {
+  width: 100%;
+  height: 200px;
+  border: 4px solid #0945b5;
+  resize: none;
+  font-size: 20px;
+}
+
+button {
+  padding: 20px 30px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+iframe {
+  height: 400px;
+  background-color: white;
+  
+}
