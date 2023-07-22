@@ -1,0 +1,56 @@
+.img{
+  background-image: url(me.jpg);
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+.container {
+  width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+  background-color:rgb(27, 159, 203) ;
+}
+.container-fluid {
+  width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size:large;
+}
+
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #1cab32;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#output {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size:50px;
+}
+
