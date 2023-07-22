@@ -1,9 +1,4 @@
-.img{
-  background-image: url(me.jpg);
-  width: 100%;
-  padding-top: 100px;
-  padding-bottom: 250px;
-}
+
 .container {
   width: 1000px;
   margin: 50px auto;
